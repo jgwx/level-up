@@ -1,0 +1,107 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a; /* темный фон */
+    color: white;
+}
+
+/* Header */
+header {
+    background-color: #020617;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* Навигация */
+nav {
+    background-color: #111827;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #22c55e; /* зеленый при наведении */
+}
+
+/* Контейнер */
+.container {
+    padding: 40px;
+}
+
+/* Сетка карточек игр */
+.games {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+/* Карточка игры */
+.card {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Изображение игры */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Цена */
+.price {
+    color: #22c55e;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Кнопка купить */
+button {
+    background-color: #22c55e;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #16a34a;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    background-color: #020617;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Мелкие эффекты */
+h2 {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin: 10px 0;
+}
